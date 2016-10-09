@@ -1,0 +1,5 @@
+git add 'file'#添加文件
+git commit -a #提交文件
+git push origin <barnch>#远程推送
+git pull oirgin <branch>#远程同步
+<branch> 一般情况下是master
