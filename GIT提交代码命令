@@ -3,3 +3,9 @@ git commit -a #提交文件
 git push origin <barnch>#远程推送
 git pull oirgin <branch>#远程同步
 <branch> 一般情况下是master
+echo "# scan" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git remote add origin git@github.com:lcy1/scan.git
+git push -u origin master
